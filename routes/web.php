@@ -17,7 +17,7 @@ Route::get('/welcome', function () {
 
 Route::get('/', ['as'=>'home','uses'=>'AppController@index']);
 
-Route::post('/profile', 'ProfileController@edit_profile');
+Route::get('/profile', 'ProfileController@edit_profile');
 
 Auth::routes();
 
