@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.mainud6')
 
 @section('content')
 <div class="container">
@@ -12,9 +12,10 @@
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
+                        session ('status')
                     @endif
 
-                    You are logged in!
+                    UNIDAD 6 'AUTENTIFICACION'
                 </div>
             </div>
         </div>

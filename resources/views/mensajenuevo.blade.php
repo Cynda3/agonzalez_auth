@@ -15,16 +15,8 @@
                         session ('status')
                     @endif
 
+                    ENVIA UN NUEVO MENSAJE
                 </div>
-            </div>
-            <div class="form-body">
-                <h2>Edita tu perfil:</h2>
-                <span>Nombre:</span>
-                <input type="text" name="name"><br>
-                <span>Correo:</span>
-                <input type="email" name="correo"><br>
-                <span>Contraseña:</span>
-                <input type="password" name="contraseña">
             </div>
         </div>
     </div>

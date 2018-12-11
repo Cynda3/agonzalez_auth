@@ -17,8 +17,20 @@ Route::get('/welcome', function () {
 
 Route::get('/', ['as'=>'home','uses'=>'AppController@index']);
 
-Route::get('/profile', 'ProfileController@edit_profile');
+Route::get('/profile', 'ProfileController@edit_profile')->middleware('verified');
 
-Auth::routes();
+Route::get('/mensajes', function () {
+    return view('mensajes');
+});
+
+Route::get('/nuevo_mensaje', function () {
+    return view('mensajenuevo');
+});
+
+Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/mensajes', 'MessageController@index');
+Route::get('/nuevo_mensaje', 'MessageController@create');

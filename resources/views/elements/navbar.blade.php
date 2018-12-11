@@ -16,12 +16,12 @@
                     </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/mensaje">
+                    <a class="nav-link" href="/mensajes">
                         Mensajes
                     </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/Nuevo mensaje">
+                    <a class="nav-link" href="/nuevo_mensaje">
                         Nuevo mensaje
                     </a>
                 </li>
